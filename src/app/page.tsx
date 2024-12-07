@@ -1,6 +1,7 @@
 import { About } from "@/components/About";
 import { FeatureSection } from "@/components/FeatureSection";
 import { OurClients } from "@/components/OurClients";
+import { Reviews } from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <FeatureSection />
       <h2>our client</h2>
       <OurClients/>
+      <Reviews/>
     </div>
   );
 }
