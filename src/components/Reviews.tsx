@@ -54,7 +54,7 @@ export function Reviews() {
   ];  
   
   return(
-    <div className="min-h-screen bg-gray-100 py-10">
+    <div className="min-h-screen py-10">
     <h1 className="text-center text-2xl font-bold mb-8">Customer Reviews</h1>
     <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {reviews.map((review, index) => (

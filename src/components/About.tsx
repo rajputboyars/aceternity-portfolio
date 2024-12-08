@@ -17,8 +17,8 @@ export function About() {
                 }}
                 className="relative flex flex-col gap-4 items-center justify-center px-4"
             >
-                <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-                    <span className="text-secondaryLight">Maximize</span> your reach with
+                <div className="text-3xl md:text-7xl font-bold dark:text-white text-center" style={{textShadow:"4px 0px 5px rgba(0,0,0,1)"}}>
+                    <span className="text-secondaryLight" style={{textShadow:"0px 0px 4px rgba(250,250,250,1)"}}>Maximize</span> your reach with
                 </div>
                 <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
                     professionally edited videos.
