@@ -40,11 +40,6 @@ export const StickyScroll = ({
     setActiveCard(closestBreakpointIndex);
   });
 
-  const backgroundColors = [
-    "var(--slate-900)",
-    "var(--black)",
-    "var(--neutral-900)",
-  ];
   const linearGradients = [
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
     "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
@@ -61,7 +56,7 @@ export const StickyScroll = ({
 
   return (
     <motion.div
-      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10"
+      className="h-[20rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md px-10"
       ref={ref}
       style={{scrollbarWidth:"none"}}
     >
@@ -93,7 +88,7 @@ export const StickyScroll = ({
               </motion.p>
             </div>
           ))}
-          <div className="h-40" />
+          {/* <div className="h-5" /> */}
         </div>
       </div>
       <div
