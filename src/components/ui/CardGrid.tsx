@@ -28,7 +28,7 @@ const CardGrid: React.FC = () => {
       {users.map((user, index) => (
         <div
           key={user.id}
-          className={`relative flex flex-col items-center border-white border p-6 rounded-lg transform transition-all duration-500 shadow-white ${
+          className={`relative flex flex-col items-center border-[#0504a5] border p-6 rounded-lg transform transition-all duration-500 shadow-[#0504a5] ${
             hoveredIndex === index ? "shadow-2xl scale-105" : "shadow-md"
           }`}
           onMouseEnter={() => setHoveredIndex(index)}
