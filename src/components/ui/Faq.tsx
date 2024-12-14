@@ -4,22 +4,35 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 type FAQItem = {
+  id:number;
   question: string;
   answer: string;
 };
 
-const faqData: FAQItem[] = [
+const FAQ_DATA:FAQItem[] = [
   {
-    question: 'What is Next.js?',
-    answer: 'Next.js is a React framework for building fast and user-friendly web applications.',
+    id: 1,
+    question: "What is your return policy?",
+    answer:
+      "You can return any item within 30 days of purchase as long as it is in its original condition and packaging.",
   },
   {
-    question: 'What is Tailwind CSS?',
-    answer: 'Tailwind CSS is a utility-first CSS framework for rapidly building custom designs.',
+    id: 2,
+    question: "Do you offer international shipping?",
+    answer:
+      "Yes, we ship to most countries worldwide. Shipping fees and delivery times vary by location.",
   },
   {
-    question: 'What is TypeScript?',
-    answer: 'TypeScript is a strongly typed programming language that builds on JavaScript.',
+    id: 3,
+    question: "How can I track my order?",
+    answer:
+      "Once your order is shipped, you will receive a tracking number via email. You can use this number to track your order on our website.",
+  },
+  {
+    id: 4,
+    question: "What payment methods do you accept?",
+    answer:
+      "We accept major credit cards, PayPal, and other secure payment methods, depending on your location.",
   },
 ];
 
@@ -33,7 +46,7 @@ const FAQ: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto p-4">
       <div className="space-y-4">
-        {faqData.map((item, index) => (
+        {FAQ_DATA.map((item, index) => (
           <div
             key={index}
             className="border border-secondaryLight rounded-lg shadow-sm overflow-hidden"

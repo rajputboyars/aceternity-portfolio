@@ -8,19 +8,13 @@ type User = {
   description: string;
 };
 
-const users: User[] = [
-  { id: 1, img: "/user1.jpg", title: "User 1", description: "Description 1" },
-  { id: 2, img: "/user2.jpg", title: "User 2", description: "Description 2" },
-  { id: 3, img: "/user3.jpg", title: "User 3", description: "Description 3" },
-  { id: 4, img: "/user4.jpg", title: "User 4", description: "Description 4" },
-  { id: 5, img: "/user5.jpg", title: "User 5", description: "Description 5" },
-  { id: 6, img: "/user6.jpg", title: "User 6", description: "Description 6" },
-  { id: 7, img: "/user7.jpg", title: "User 7", description: "Description 7" },
-  { id: 8, img: "/user8.jpg", title: "User 8", description: "Description 8" },
-  { id: 9, img: "/user9.jpg", title: "User 9", description: "Description 9" },
-];
 
-const CardGrid: React.FC = () => {
+type CardGridProps = {
+  users: User[];
+};
+
+
+const CardGrid: React.FC<CardGridProps> = ({ users }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
