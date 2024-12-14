@@ -100,15 +100,22 @@ const portfolio = () => {
     <div className='bg-black'>
       <div className='max-w-7xl m-auto'>
         <Link href={"/"} className='py-2 px-4 border text-[#fff] border-[#0504a5] rounded-[8px] ml-[32px] cursor-pointer inline-block mt-[32px] transition-all hover:shadow-[0px_4px_6px_1px_rgba(5,4,165,1)]'> 👈 Back To Home</Link>
-
-        <h2>Short Videos</h2>
-        <PortfolioCardGrid users={SHORT_VIDEOS} />
-        <h2>Long Videos</h2>
-        <PortfolioCardGrid users={LONG_VIDEOS} />
-        <h2>Podcasts</h2>
-        <PortfolioCardGrid users={PODCASTS}/>
-        <h2>VSLs Thumbnail</h2>
-        <PortfolioCardGrid users={VSLS_THUMBNAIL}/>
+        <section className='my-12 max-w-[1280px] w-full mx-auto'>
+          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Short</span> Videos </h2>
+          <PortfolioCardGrid users={SHORT_VIDEOS} />
+        </section>
+        <section>
+          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Long</span> Videos </h2>
+          <PortfolioCardGrid users={LONG_VIDEOS} />
+        </section>
+        <section>
+          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Pod</span>casts </h2>
+          <PortfolioCardGrid users={PODCASTS} />
+        </section>
+        <section>
+          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">VSLs</span> Thumbnail</h2>
+          <PortfolioCardGrid users={VSLS_THUMBNAIL} />
+        </section>
       </div>
     </div>
   )

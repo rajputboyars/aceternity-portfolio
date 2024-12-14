@@ -20,6 +20,8 @@ const PortfolioCardGrid: React.FC<PortfolioCardGridProps> = ({ users }) => {
         <div className="grid grid-cols-3 gap-6 p-8">
             {users.map((user, index) => (
                 <div
+                    onMouseEnter={() => setPlayingIndex(index)}
+                    onMouseLeave={() => setPlayingIndex(null)}
                     key={user.id}
                     className={`relative flex flex-col items-center border-[#0504a5] border p-2 rounded-lg transform transition-all duration-500 shadow-[#0504a5] ${playingIndex === index ? "shadow-2xl scale-105" : "shadow-md"
                         }`}
