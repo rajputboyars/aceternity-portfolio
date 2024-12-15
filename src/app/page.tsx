@@ -11,7 +11,7 @@ export default function Home() {
       <div className="bg-black text-white">
         <About />
         <section className="my-12 max-w-[1280px] w-full mx-auto">
-          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Our</span> Feature </h2>
+          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Our</span> Services </h2>
           <FeatureSection />
         </section>
         <section className="mt-14 mb-14 max-w-[1280px] w-full mx-auto">
