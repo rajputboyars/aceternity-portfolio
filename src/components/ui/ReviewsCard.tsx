@@ -16,9 +16,9 @@ const ReviewsCard: React.FC<ReviewsCardProps> = ({ review }) => {
   const { name, title, text, rating, image } = review;
 
   return (
-    <div className="border shadow-md rounded-lg p-6 flex flex-col md:flex-row gap-8 items-center justify-center transform transition duration-300 hover:scale-105 hover:shadow-[0px_0px_61px_-17px_rgba(53,51,205,1)]">
+    <div className="border shadow-md rounded-lg p-6 flex flex-col md:flex-row gap-8 items-center justify-left transform transition duration-300 hover:scale-105 hover:shadow-[0px_0px_61px_-17px_rgba(53,51,205,1)]">
       {/* Reviewer Image */}
-      <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-blue-500">
+      <div className="max-w-[63px] w-full h-16 rounded-full overflow-hidden border-2 border-blue-500">
         <img src={image} alt={`${name}'s picture`} className="w-full h-full object-cover" />
       </div>
       <div className="flex flex-col gap-2">
