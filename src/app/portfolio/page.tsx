@@ -84,7 +84,7 @@ const portfolio = () => {
             className="custom-class"
           />
         </section>
-        <section className='my-12 max-w-[1280px] w-full mx-auto' id=''>
+        <section className='mt-12 max-w-[1280px] w-full mx-auto' id=''>
           <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Docu</span>mentaries</h2>
           <InfiniteMovingVideos
             videoLinks={Documentaries}

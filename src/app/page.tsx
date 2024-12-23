@@ -23,7 +23,7 @@ export default function Home() {
           <h2 className="text-center md:text-5xl text-4xl font-bold mb-10">Case <span className="text-[#c6a4e8]">Studies</span>  </h2>
           <CaseStudies />
         </section>
-        <section className="my-[50px]">
+        <section className="mt-[50px]">
           <h2 className="text-center md:text-2xl text-4xl font-bold mb-10"><span className="text-[#c6a4e8]">FAQ</span></h2>
           <FAQ />
         </section>
