@@ -4,7 +4,7 @@ import { FeatureSection } from "@/components/FeatureSection";
 import { OurClients } from "@/components/OurClients";
 import { Reviews } from "@/components/Reviews";
 import FAQ from "@/components/ui/Faq";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -24,9 +24,12 @@ export default function Home() {
           <CaseStudies />
         </section>
         <section className="mt-[50px]">
-          <h2 className="text-center md:text-2xl text-4xl font-bold mb-10"><span className="text-[#c6a4e8]">FAQ</span></h2>
+          <h2 className="text-center md:text-5xl text-4xl font-bold mb-10"><span className="text-[#c6a4e8]">FAQ</span></h2>
           <FAQ />
         </section>
+        <Link href={"https://calendly.com/kukkarshubham121/30min"} className=" text-center mx-auto my-10 cursor-pointer text-xl p-4 rounded-lg bg-[#0504a5] block max-w-[250px] w-full ">Still have a question?
+          <span className=" border-b border-[#fff mt-2]">Get in touch.</span>
+        </Link>
       </div>
     </>
   );
