@@ -28,7 +28,7 @@ export default function Home() {
           <FAQ />
         </section>
         <section className="py-10">
-        <Link href={"https://calendly.com/kukkarshubham121/30min"} className=" text-center mx-auto my-10 cursor-pointer text-xl p-4 rounded-lg bg-[#0504a5] block max-w-[250px] w-full ">Still have a question?
+        <Link href={"https://calendly.com/kukkarshubham121/30min"} className=" text-center mx-auto cursor-pointer text-xl p-4 rounded-lg bg-[#0504a5] block max-w-[250px] w-full ">Still have a question?
           <span className=" border-b border-[#fff mt-2]">Get in touch.</span>
         </Link>
         </section>
