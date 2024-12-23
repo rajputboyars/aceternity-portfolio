@@ -27,7 +27,7 @@ export default function Home() {
           <h2 className="text-center md:text-5xl text-4xl font-bold mb-10"><span className="text-[#c6a4e8]">FAQ</span></h2>
           <FAQ />
         </section>
-        <Link href={"https://calendly.com/kukkarshubham121/30min"} className=" text-center mx-auto my-10 cursor-pointer text-xl p-4 rounded-lg bg-[#0504a5] block max-w-[250px] w-full ">Still have a question?
+        <Link href={"https://calendly.com/kukkarshubham121/30min"} className=" text-center mx-auto py-10 cursor-pointer text-xl p-4 rounded-lg bg-[#0504a5] block max-w-[250px] w-full ">Still have a question?
           <span className=" border-b border-[#fff mt-2]">Get in touch.</span>
         </Link>
       </div>
