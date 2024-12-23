@@ -13,7 +13,7 @@ const SHORT_VIDEOS = [
   "https://www.youtube.com/embed/zUHdvMlnEPo?si=KDVvzRVfbeM2ti2S",
 ];
 const LONG_VIDEOS = [
-  "https://www.youtube.com/embed/MjT_9XfvEcE?si=cYbnkeFc2UtJSqXV&amp;controls=0",
+  "https://www.youtube.com/embed/MjT_9XfvEcE?si=cYbnkeFc2UtJSqXV",
   "https://www.youtube.com/embed/Wu8JB9pg2t4?si=3SeknWnoWVpdbmEz",
   "https://www.youtube.com/embed/AgiYbevEE1A?si=j9Xj0xo965vBfEJ7",
   "https://www.youtube.com/embed/s1SjpYBI4-Y?si=6OmW2vfQ0KhWFil_",

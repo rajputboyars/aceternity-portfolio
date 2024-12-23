@@ -55,7 +55,7 @@ export function Reviews() {
 
   return (
     <div className="py-10">
-      <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Customer</span> Reviews </h2>
+      <h2 className="text-center text-5xl font-bold mb-10">Customer <span className="text-[#c6a4e8]"> Reviews</span> </h2>
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {reviews.map((review, index) => (
           <ReviewsCard key={index} review={review} />
