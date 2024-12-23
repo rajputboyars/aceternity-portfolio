@@ -24,7 +24,7 @@ export default function Home() {
           <CaseStudies />
         </section>
         <section className="my-[50px]">
-          <h2 className="text-center md:text-2sxl text-4xl font-bold mb-10"><span className="text-[#c6a4e8]">FAQ</span></h2>
+          <h2 className="text-center md:text-2xl text-4xl font-bold mb-10"><span className="text-[#c6a4e8]">FAQ</span></h2>
           <FAQ />
         </section>
       </div>
