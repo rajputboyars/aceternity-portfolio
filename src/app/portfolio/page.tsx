@@ -1,5 +1,4 @@
 import { InfiniteMovingVideos } from '@/components/ui/InfiniteMovingVideos';
-import PortfolioCardGrid from '@/components/ui/PortfolioCardGrid';
 import Link from 'next/link'
 import React from 'react'
 
@@ -45,7 +44,7 @@ const portfolio = () => {
       <div className='max-w-7xl m-auto'>
         <Link href={"/"} className='py-2 px-4 border text-[#fff] border-[#0504a5] rounded-[8px] ml-[32px] cursor-pointer inline-block mt-[32px] transition-all hover:shadow-[0px_4px_6px_1px_rgba(5,4,165,1)]'> 👈 Back To Home</Link>
         <section className='my-12 max-w-[1280px] w-full mx-auto'>
-          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Short</span> Videos </h2>
+          <h2 className="text-center text-5xl font-bold mb-10"><span>Short Videos</span> </h2>
           <InfiniteMovingVideos
             videoLinks={SHORT_VIDEOS}
             direction="left"
@@ -55,7 +54,7 @@ const portfolio = () => {
           />
         </section>
         <section className='my-12 max-w-[1280px] w-full mx-auto' id=''>
-          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Long</span> Videos </h2>
+          <h2 className="text-center text-5xl font-bold mb-10"><span>Long Videos</span> </h2>
           <InfiniteMovingVideos
             videoLinks={LONG_VIDEOS}
             direction="right"
@@ -65,7 +64,7 @@ const portfolio = () => {
           />
         </section>
         <section className='my-12 max-w-[1280px] w-full mx-auto' id=''>
-          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Pod</span>casts </h2>
+          <h2 className="text-center text-5xl font-bold mb-10"><span>Podcasts </span></h2>
           <InfiniteMovingVideos
             videoLinks={PODCASTS}
             direction="left"
@@ -75,7 +74,7 @@ const portfolio = () => {
           />
         </section>
         <section className='my-12 max-w-[1280px] w-full mx-auto' id=''>
-          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Product</span> Explainer Videos</h2>
+          <h2 className="text-center text-5xl font-bold mb-10"><span>Product Explainer Videos</span> </h2>
           <InfiniteMovingVideos
             videoLinks={Product_Explainer_Videos}
             direction="right"
@@ -85,7 +84,7 @@ const portfolio = () => {
           />
         </section>
         <section className='mt-12 max-w-[1280px] w-full mx-auto' id=''>
-          <h2 className="text-center text-5xl font-bold mb-10"><span className="text-[#c6a4e8]">Docu</span>mentaries</h2>
+          <h2 className="text-center text-5xl font-bold mb-10"><span>Documentaries</span></h2>
           <InfiniteMovingVideos
             videoLinks={Documentaries}
             direction="left"

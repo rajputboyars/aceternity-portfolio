@@ -143,6 +143,7 @@ const OUR_CLIENTS = [
             <div className="h-full w-full flex items-center justify-center text-white">
                 <iframe 
                 width={300} 
+                loading="lazy"
                 height={200} 
                 src="https://www.youtube.com/embed/bUSUfGxax08?si=48Hcu_kwdM8DhIY_" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>

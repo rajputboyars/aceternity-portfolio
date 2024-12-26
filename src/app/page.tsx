@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="bg-black text-white">
+      <div className="bg-black text-white px-5">
         <About />
         <section className="my-12 max-w-[1280px] w-full mx-auto px-5">
           <h2 className="text-center md:text-5xl text-4xl font-bold mb-10">Our <span className="text-[#c6a4e8]">Services</span>  </h2>
@@ -19,7 +19,7 @@ export default function Home() {
           <OurClients />
         </section>
         <Reviews />
-        <section>
+        <section className="mt-10">
           <h2 className="text-center md:text-5xl text-4xl font-bold mb-10">Case <span className="text-[#c6a4e8]">Studies</span>  </h2>
           <CaseStudies />
         </section>

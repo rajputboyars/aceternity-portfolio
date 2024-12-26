@@ -84,6 +84,7 @@ export const InfiniteMovingVideos = ({
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="w-full h-56 rounded-lg"
+              loading="lazy"
             ></iframe>
           </li>
         ))}

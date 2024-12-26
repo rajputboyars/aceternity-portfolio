@@ -12,27 +12,33 @@ type FAQItem = {
 const FAQ_DATA:FAQItem[] = [
   {
     id: 1,
-    question: "What is your return policy?",
+    question: "What makes Oneup Creatives different from other agencies?",
     answer:
-      "You can return any item within 30 days of purchase as long as it is in its original condition and packaging.",
+      "At Oneupcreatives, we bring all your video editing needs under one roof. We do everything from short-form social media clips and long-form YouTube content to professional LinkedIn videos, engaging podcasts, and impactful product launch videos. With flexible plans tailored to you, we’re here to deliver creativity, quality, and a personal touch that brings your vision to life.",
   },
   {
     id: 2,
-    question: "Do you offer international shipping?",
+    question: "Do you offer sample edits or trials?",
     answer:
-      "Yes, we ship to most countries worldwide. Shipping fees and delivery times vary by location.",
+      "Due to our commitment to maintaining high standards and delivering top-quality work, we currently don’t offer trial edits. However, we’re dedicated to ensuring your satisfaction and will work on your videos until they meet your expectations.",
   },
   {
     id: 3,
-    question: "How can I track my order?",
+    question: "What is the turnaround time for video?",
     answer:
-      "Once your order is shipped, you will receive a tracking number via email. You can use this number to track your order on our website.",
+      "The turnaround time for videos depends on the type of project and typically ranges from 1 to 4 days. If you have an urgent need, we also offer fast delivery options to meet your deadlines.",
   },
   {
     id: 4,
-    question: "What payment methods do you accept?",
+    question: "What are the commercials?",
     answer:
-      "We accept major credit cards, PayPal, and other secure payment methods, depending on your location.",
+      "At Oneupcreatives, we offer unique credit-based plans to make video editing simple and cost-effective. One credit equals one video edit, and we have tailored plans for long-form content, short-form videos, and podcasts. Credits are valid for 6 months, so you’re not tied to a monthly retainer, helping you save money while maintaining flexibility for your projects.",
+  },
+  {
+    id: 5,
+    question: "What mode of payment do you accept?",
+    answer:
+      "We usually prefer payments through Wise for its simplicity and convenience, but we also accept payments via Stripe to offer more flexibility for our clients.",
   },
 ];
 

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import VideoPlayer from "./VideoPlayer";
 
 export function About() {
     return (
@@ -18,7 +19,7 @@ export function About() {
                 </Link>
             </div>
             <div className="flex-1">
-                <video src="https://drive.google.com/file/d/1IFasPpXH3Lkuu81FIuz8a6PCD1andFSS/view?usp=sharing"></video>
+                <VideoPlayer/>
             </div>
         </div>
     );
