@@ -59,7 +59,6 @@ export function FocusCards({ cards }: { cards: Card[] }) {
     <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10 max-w-7xl mx-auto w-full">
       {cards.map((card, index) => {
         const href = card.title.toLowerCase().replace(" ", "_")
-        console.log(href);
 
         return (
           <Link href={`/portfolio#${href}`}

@@ -40,19 +40,6 @@ export const StickyScroll = ({
     setActiveCard(closestBreakpointIndex);
   });
 
-  // const linearGradients = [
-  //   "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
-  //   "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
-  //   "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
-  // ];
-
-  // const [backgroundGradient, setBackgroundGradient] = useState(
-  //   linearGradients[0]
-  // );
-
-  // useEffect(() => {
-    // setBackgroundGradient(linearGradients[activeCard % linearGradients.length]);
-  // }, [activeCard]);
 
   return (
     <motion.div
@@ -88,7 +75,6 @@ export const StickyScroll = ({
               </motion.p>
             </div>
           ))}
-          {/* <div className="h-5" /> */}
         </div>
       </div>
       <div

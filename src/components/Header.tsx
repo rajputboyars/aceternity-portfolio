@@ -10,7 +10,6 @@ const Header: React.FC = () => {
         {/* Logo */}
         <div className="text-2xl font-bold">
           <Link href="/#about">
-            {/* <p className="hover:text-secondary">MyWebsite</p> */}
             <Image
             src={"/images/logo/logo.jpg"}
             alt="logo"

@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-// import { StickyScroll } from "../ui/sticky-scroll-reveal";
 import { StickyScroll } from "./ui/StickyScrollReveal";
 
 const OUR_CLIENTS = [
@@ -16,7 +15,6 @@ const OUR_CLIENTS = [
                     height={300}
                     className="h-full w-full object-cover overflow-hidden"
                     title="Legal Lounge demo"
-                    // allow="autoplay; encrypted-media"
                     allowFullScreen
                 />
             </div>
@@ -33,7 +31,6 @@ const OUR_CLIENTS = [
                     height={200}
                     src="https://www.youtube.com/embed/sJdjCy35Hww?si=Pv2KRqMZFcIvmSUN"
                     title="YouTube video player"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
@@ -52,7 +49,6 @@ const OUR_CLIENTS = [
                     height={200}
                     src="https://www.youtube.com/embed/R0CfLm0brJ8?si=gxxIqbpJUo84Q0Qm"
                     title="YouTube video player"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
@@ -71,7 +67,6 @@ const OUR_CLIENTS = [
                     height={200}
                     src="https://www.youtube.com/embed/w42zsR8oWOQ?si=3Rb3ImpwzpHWLiOG"
                     title="YouTube video player"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
@@ -90,7 +85,6 @@ const OUR_CLIENTS = [
                     height={200}
                     src="https://www.youtube.com/embed/MjT_9XfvEcE?si=e4CbwmRAg7tCf-R0"
                     title="YouTube video player"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
@@ -109,7 +103,6 @@ const OUR_CLIENTS = [
                     height={200}
                     src="https://www.youtube.com/embed/pgj_cPqTMqk?si=9X4Wzi5hxyXQEFSG"
                     title="YouTube video player"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
@@ -129,7 +122,6 @@ const OUR_CLIENTS = [
                     height={200}
                     className="h-full w-full object-cover overflow-hidden"
                     title="Versed demo"
-                    // allow="autoplay; encrypted-media"
                     allowFullScreen
                 />
             </div>
