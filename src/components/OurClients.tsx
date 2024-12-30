@@ -152,7 +152,7 @@ const OUR_CLIENTS = [
 ];
 export function OurClients() {
     return (
-        <div className="">
+        <div className="max-lg:hidden">
             <StickyScroll content={OUR_CLIENTS} />
         </div>
     );

@@ -56,7 +56,7 @@ export const StickyScroll = ({
 
   return (
     <motion.div
-      className="h-[20rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md px-10"
+      className="h-[20rem] overflow-y-auto flex justify-between relative space-x-10 rounded-md px-10"
       ref={ref}
       style={{scrollbarWidth:"none"}}
     >

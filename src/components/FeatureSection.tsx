@@ -16,7 +16,7 @@ export function FeatureSection() {
       src: "/images/feature-section/PodcastThumbnail.jpg",
     },
     {
-      title: "VSLs Thumbnail",
+      title: "Thumbnail",
       src: "/images/feature-section/ThumbnailDesigning.jpg",
     },
   ];
